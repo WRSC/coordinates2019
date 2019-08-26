@@ -1,0 +1,103 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+"""Analyse an attempt at the fleet race.
+This is the simplest challenge to analyse. Boats go to waypoints A, B, C, A.
+They reach a marker by getting within RADIUS metres of it.
+Boats that complete more of the course beat boats that complete less of it.
+For boats that reach the same number of waypoints, the duration
+from their start times determines the winner.
+Bonus or penalty times may adjust this.
+Usage:
+    ./analyse_fleet_race attempt.csv
+"""
+
+import csv
+import sys
+
+from pyproj import Proj
+import math
+import datetime
+
+# Your UTM zone depends on your longitude; see http://www.dmap.co.uk/utmworld.htm
+utm_zone = 51
+
+projection = Proj(proj='utm', zone=utm_zone, ellps='WGS84')
+
+def latlon_to_utm(lat, lon):
+    """Returns (x, y) coordinates in metres"""
+    return projection(lon, lat)
+
+# CSV values
+# ISO 8601
+# Lat 
+# Lon
+# 
+#  y^
+#   |
+#   +-> x
+
+#          B
+#          | \
+#          |   \
+#   D<-----C    A
+wpA = (29.86713941, 121.53897552)
+wpB = (29.86705406, 121.53859978)
+wpC = (29.86720864, 121.53867803)
+wpD = (29.86729537, 121.53840194)
+RADIUS = 5 #acceptance radius in m
+
+#######################################################################################
+
+# Convert all coordinates to UTM, so we can work with metres on a flat plane
+wpA_utm = latlon_to_utm(wpA[0], wpA[1])
+wpB_utm = latlon_to_utm(wpB[0], wpB[1])
+wpC_utm = latlon_to_utm(wpC[0], wpC[1])
+wpD_utm = latlon_to_utm(wpD[0], wpD[1])
+
+def dist2wp(M, wp):
+    """Direct distance between two points in metres"""
+    return math.sqrt((M[0]-wp[0])**2 + (M[1] - wp[1])**2) 
+
+def isWpReached(M, wp):
+    return dist2wp(M, wp) < RADIUS
+
+csv_file = sys.argv[1]
+
+positions_utm = []
+with open(csv_file) as logfile:
+    data = csv.reader(logfile, delimiter=',')
+    for row in list(data)[1:]:
+        time = datetime.datetime.strptime(row[0], "%Y-%m-%dT%H:%M:%SZ")
+        latitude = float(row[1])
+        longitude = float(row[2])
+            
+        positions_utm.append((time, latlon_to_utm(latitude, longitude)))
+
+starttime = 0
+WPA_REACHED = False
+WPB_REACHED = False
+WPC_REACHED = False
+WPD_REACHED = False
+for timestamp, point in positions_utm:
+    if (not WPA_REACHED) and isWpReached(point, wpA_utm):
+        WPA_REACHED = True
+        print("WPA reached at", timestamp)
+        start_time = timestamp
+
+    if  WPA_REACHED and (not WPB_REACHED) and isWpReached(point, wpB_utm):
+        WPB_REACHED = True
+        print("WPB reached at", timestamp)
+
+
+    if  WPB_REACHED and (not WPC_REACHED) and isWpReached(point, wpC_utm):
+        WPC_REACHED = True
+        print("WPC reached at", timestamp)
+        
+
+    if  WPC_REACHED and (not WPD_REACHED) and isWpReached(point, wpD_utm):
+        WPD_REACHED = True
+        finish_time = timestamp
+        print("WPD reached at", timestamp)
+        print("Finished at", timestamp) 
+        total_time = finish_time - start_time
+        print("Total time", total_time)
