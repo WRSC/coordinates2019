@@ -9,3 +9,5 @@ This is WRSC 2019 coordinates repository.
 
 ## Fleet Race
 
+Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/fleet-race/fleet_race_plot.ipynb). 
+
