@@ -19,6 +19,7 @@ Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/gi
 | ZMART                            | Reach     | Reach     | Reach     | Reach     | 00:01:30   |
 | NIT\-RAO                         | Reach     | Reach     | Reach     | Reach     | 00:01:31   |
 | HUST 1                           | Reach     | Reach     | Reach     | Reach     | 00:02:02   |
+| NITXRobot                        | Reach     | Reach     | Reach     | Reach     | 00:02:54   |
 | HUST 2                           | Reach     | Reach     | Reach     | Reach     | 00:03:10   |
 | 海航一号                             | Reach     | Reach     | Reach     | Reach     | 00:03:27   |
 | University of Plymouth           | Reach     | Reach     | Reach     | Reach     | 00:03:28   |
@@ -29,7 +30,6 @@ Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/gi
 | AberSailbot                      | Reach     | Not Reach | Not Reach | Not Reach | None       |
 | 海远                               | Not Reach | Not Reach | Not Reach | Not Reach | None       |
 | 农夫山泉                             | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| NITXRobot                        | Not Reach | Not Reach | Not Reach | Not Reach | None       |
 | 中控队                              | Not Reach | Not Reach | Not Reach | Not Reach | None       |
 | Intelligence Autonomous Sailboat | Not Reach | Not Reach | Not Reach | Not Reach | None       |
 | 牛顿                               | Not Reach | Not Reach | Not Reach | Not Reach | None       |
