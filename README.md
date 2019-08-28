@@ -4,7 +4,7 @@ This is WRSC 2019 coordinates repository.
 
 1. Fleet race coordinates have been published at [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/way_points/fleet_race_waypoints.ipynb). 
 2. Station keeping coordiantes of A + B (with obstacles) are [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/way_points/station_keeping.ipynb).
-3. Area scanning coordinates is on [this](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/way_points/area_scanning.ipynb) map.
+3. Area scanning coordinates are on [this map](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/way_points/area_scanning.ipynb).
 # Results
 
 ## Fleet Race
