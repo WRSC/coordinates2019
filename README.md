@@ -37,3 +37,8 @@ Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/gi
 | Southampton                      | Not Reach | Not Reach | Not Reach | Not Reach | None       |
 | MecaSail                         | Not Reach | Not Reach | Not Reach | Not Reach | None       |
 | Coventry University              | Not Reach | Not Reach | Not Reach | Not Reach | None       |
+
+## Station keeping 
+
+Boat trace in station keeping challenge is avaliable [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/station-keeping/station_keeping_plot.ipynb).
+
