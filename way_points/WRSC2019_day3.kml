@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>WRSC2019_day3.kml</name>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>WRSC2019_day3</name>
+		<open>1</open>
+		<Placemark>
+			<name>marker4</name>
+			<LookAt>
+				<longitude>121.5385107132378</longitude>
+				<latitude>29.86722531879221</latitude>
+				<altitude>0</altitude>
+				<heading>-1.859193284767387</heading>
+				<tilt>0</tilt>
+				<range>162.1428626048417</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.5388580404463,29.86702872486077,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>marker3</name>
+			<LookAt>
+				<longitude>121.5385107132378</longitude>
+				<latitude>29.86722531879221</latitude>
+				<altitude>0</altitude>
+				<heading>-1.859193284767387</heading>
+				<tilt>0</tilt>
+				<range>162.1428626048417</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.5391270316213,29.86749690797608,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>marker2</name>
+			<LookAt>
+				<longitude>121.5384938204929</longitude>
+				<latitude>29.86687545228245</latitude>
+				<altitude>0</altitude>
+				<heading>0.0001833113313385426</heading>
+				<tilt>24.49109996285732</tilt>
+				<range>178.012217850852</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.5382643168712,29.86719457094162,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>marker1</name>
+			<LookAt>
+				<longitude>121.5385569838604</longitude>
+				<latitude>29.86692648638339</latitude>
+				<altitude>0</altitude>
+				<heading>0.000214766223361014</heading>
+				<tilt>24.49109951365535</tilt>
+				<range>177.8915840330236</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>121.5385162033053,29.86769032147261,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
