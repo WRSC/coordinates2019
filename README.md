@@ -13,6 +13,7 @@ This is WRSC 2019 coordinates repository.
 
 Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/fleet-race/fleet_race_plot.ipynb). 
 
+Top 5 and the full list. 
 
 | Team                             | A         | B         | C         | D         | Total Time |
 |----------------------------------|-----------|-----------|-----------|-----------|------------|
@@ -21,28 +22,15 @@ Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/gi
 | Dragonbot                        | Reach     | Reach     | Reach     | Reach     | 00:01:28   |
 | NIT\-RAO                         | Reach     | Reach     | Reach     | Reach     | 00:01:31   |
 | HUST 1                           | Reach     | Reach     | Reach     | Reach     | 00:02:02   |
-| NITXRobot                        | Reach     | Reach     | Reach     | Reach     | 00:02:54   |
-| HUST 2                           | Reach     | Reach     | Reach     | Reach     | 00:03:10   |
-| 海航一号                             | Reach     | Reach     | Reach     | Reach     | 00:03:27   |
-| University of Plymouth           | Reach     | Reach     | Reach     | Reach     | 00:03:28   |
-| SJTU                             | Reach     | Reach     | Reach     | Reach     | 00:09:56   |
-| Battleship Potemkin              | Reach     | Reach     | Not Reach | Not Reach | None       |
-| Surfers                          | Reach     | Not Reach | Not Reach | Not Reach | None       |
-| 321帆船小队                          | Reach     | Not Reach | Not Reach | Not Reach | None       |
-| AberSailbot                      | Reach     | Not Reach | Not Reach | Not Reach | None       |
-| 海远                               | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| 农夫山泉                             | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| 中控队                              | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| Intelligence Autonomous Sailboat | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| 牛顿                               | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| 智航                               | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| Southampton                      | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| MecaSail                         | Not Reach | Not Reach | Not Reach | Not Reach | None       |
-| Coventry University              | Not Reach | Not Reach | Not Reach | Not Reach | None       |
+
+
 
 ## Station keeping 
 
 Boat trace in station keeping challenge is avaliable [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/station-keeping/station_keeping_plot.ipynb).
+
+Top 5 and the full list. 
+
 
 | Team                             | Part A Radius | Part B Radius | Average   |
 |----------------------------------|-----------------|-----------------|-----------|
@@ -51,23 +39,27 @@ Boat trace in station keeping challenge is avaliable [here](https://nbviewer.jup
 | ZMART                            | 3\.78           | 4\.24           | 4\.01     |
 | HUST 1                           | 2\.12           | 6\.70           | 4\.41     |
 | 海航一号                          | 2\.53            | 8\.38          | 5.\46      |
-| Dragonbot                        | 2\.72           | 8\.73           | 5\.72     |
-| HUST 2                           | 2\.52           | 9\.51           | 6\.01     |
-| 牛顿                               | 4\.43           | 9\.95           | 7\.19     |
-| University of Plymouth           | 5\.55           | 10\.26          | 7\.91     |
-| Southampton                      | 4\.88           | 11\.66          | 8\.27     |
-| NITXRobot                        | 4\.89           | 12\.54          | 8\.72     |
-| SJTU                             | 8\.71           | 10\.40          | 9\.55     |
-| Surfers                          | 1\.30           | None            | None      |
-| Battleship Potemkin              | 5\.71           | None            | None      |
-| 海远                               | None            | None            | None      |
-| 农夫山泉                             | None            | None            | None      |
-| 321帆船小队                          | None            | None            | None       |
-| 中控队                              | None            | None            | None       |
-| Intelligence Autonomous Sailboat | None            | None            | None      |
-| 智航                               | None            | None            | None |
-| AberSailbot                      | None            | None            | None |
-| MecaSail                         | None            | None            | None |
-| Coventry University              | None            | None            | None |
 
+## Area scanning
 
+Top 5 and the full list. 
+
+| Team                             | Score   |
+|----------------------------------|---------|
+| nit\-3                           | 167     |
+| HUST 1                           | 160\.5  |
+| ZMART                            | 129\.5  |
+| HUST 2                           | 127     |
+| NITXRobot                        | 123\.58 |
+
+## Hide and seek
+
+Top 5 and the full list. 
+
+| Team                             | Hide | Seek | Sum |
+|----------------------------------|------|------|-----|
+| ZMART                            | 7    | 6    | 13  |
+| NIT\-RAO                         | 7    | 3    | 10  |
+| 中控队                              | 7    | 3    | 10  |
+| nit\-3                           | 6    | 3    | 9   |
+| HUST 1                           | 6    | 3    | 9   |
