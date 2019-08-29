@@ -38,7 +38,7 @@ Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/st
 | nit\-3                           | 3\.69           | 3\.89           | 3\.79     |
 | ZMART                            | 3\.78           | 4\.24           | 4\.01     |
 | HUST 1                           | 2\.12           | 6\.70           | 4\.41     |
-| 海航一号                          | 2\.53            | 8\.38          | 5.\46      |
+| 海航一号                          | 2\.53            | 8\.38          | 5\.46      |
 
 ## Area scanning
 
