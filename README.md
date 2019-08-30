@@ -13,7 +13,7 @@ This is WRSC 2019 coordinates repository.
 
 Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/fleet-race/fleet_race_plot.ipynb). 
 
-Top 5 and the full list. 
+Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/fleet-race). 
 
 | Team                             | A         | B         | C         | D         | Total Time |
 |----------------------------------|-----------|-----------|-----------|-----------|------------|
@@ -29,7 +29,7 @@ Top 5 and the full list.
 
 Boat trace in station keeping challenge is avaliable [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/station-keeping/station_keeping_plot.ipynb).
 
-Top 5 and the full list. 
+Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/station-keeping). 
 
 
 | Team                             | Part A Radius | Part B Radius | Average   |
@@ -38,11 +38,11 @@ Top 5 and the full list.
 | nit\-3                           | 3\.69           | 3\.89           | 3\.79     |
 | ZMART                            | 3\.78           | 4\.24           | 4\.01     |
 | HUST 1                           | 2\.12           | 6\.70           | 4\.41     |
-| 海航一号                          | 2\.53            | 8\.38          | 5.\46      |
+| 海航一号                          | 2\.53            | 8\.38          | 5\.46      |
 
 ## Area scanning
 
-Top 5 and the full list. 
+Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/area-scanning). 
 
 | Team                             | Score   |
 |----------------------------------|---------|
@@ -54,7 +54,7 @@ Top 5 and the full list.
 
 ## Hide and seek
 
-Top 5 and the full list. 
+Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/hide-and-seek). 
 
 | Team                             | Hide | Seek | Sum |
 |----------------------------------|------|------|-----|
