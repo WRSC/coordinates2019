@@ -11,9 +11,7 @@ This is WRSC 2019 coordinates repository.
 
 ## Fleet Race
 
-Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/fleet-race/fleet_race_plot.ipynb). 
-
-Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/fleet-race). 
+Trajectory of the all attempts are on this [map](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/fleet-race/fleet_race_plot.ipynb). Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/fleet-race). 
 
 | Team                             | A         | B         | C         | D         | Total Time |
 |----------------------------------|-----------|-----------|-----------|-----------|------------|
@@ -28,7 +26,6 @@ Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/fl
 ## Station keeping 
 
 Boat trace in station keeping challenge is avaliable [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/station-keeping/station_keeping_plot.ipynb).
-
 Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/station-keeping). 
 
 
@@ -42,7 +39,7 @@ Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/st
 
 ## Area scanning
 
-Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/area-scanning). 
+Map of area scanning challenge is [here](https://nbviewer.jupyter.org/github/WRSC/coordinates2019/blob/master/area-scanning/area_scanning_plot.ipynb). Top 5 and the [full list](https://github.com/WRSC/coordinates2019/tree/master/area-scanning). 
 
 | Team                             | Score   |
 |----------------------------------|---------|
